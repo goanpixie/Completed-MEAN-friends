@@ -1,0 +1,38 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+	<title></title>
+</head>
+<body>
+<table>
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Birthdate</th>
+        </tr>
+        <tbody>
+            <tr data-ng-repeat="friend in friends">
+                <td>
+                    {{friend.firstName}}
+                </td>
+                <td>
+                    {{friend.lastName}}
+                </td>
+                <td>
+					{{friend.birthDate | date: "yyyy-MM-dd"}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html> -->
+
+<div class = "friend-detail-card" data-ng-controller = "showController">
+	<ul>
+		<li>{{friend.firstName}}</li>
+		<li>{{friend.lastName}}</li>
+		<li>{{friend.birthDate}}</li>
+	</ul>
+
+</div>
